@@ -1,0 +1,2 @@
+# XrmSimplSyntaxGeneratorCLI
+Generates PowerApps documentation
