@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 classDiagram
 Case
 Case *-- Case : incidentid-existingcase

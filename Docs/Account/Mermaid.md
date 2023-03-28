@@ -1,4 +1,4 @@
-::: mermaid
+``` mermaid
 classDiagram
 Account
 Account *-- Account : accountid-parentaccountid
