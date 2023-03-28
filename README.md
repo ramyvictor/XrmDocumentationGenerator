@@ -1,5 +1,6 @@
 # XrmSimplSyntaxGeneratorCLI
-This repository only contains an example of the output of the CLI
+This repository only contains an example of the output of the CLI.
+Documents are generated from a solution the contains Account and Case tables.
 # Examples
 ## Account
 1. [Table diagram](Docs/Account/Mermaid.md)
