@@ -7,7 +7,7 @@ Updated default Account form.
 | --- | --- | --- |
 | <a id="SUMMARY_TAB">Summary</a><br> | Tab |  |
 | <a id="section">ACCOUNT INFORMATION</a><br> | Section |  |
-| <a id="name">Account Name</a><br> | StringType<br>![Button](https://img.shields.io/badge/Audited-👁-red)<br> | Type the company or business name.<br> |
+| <a id="name">Account Name 🔑</a><br>![Button](https://img.shields.io/badge/System%20Administrator-CREATE-blue)<br>![Button](https://img.shields.io/badge/System%20Administrator-UPDATE-blue)<br>![Button](https://img.shields.io/badge/System%20Administrator-READ-blue)<br> | StringType<br>![Button](https://img.shields.io/badge/Audited-👁-red)<br> | Type the company or business name.<br>**Modern Flows:**<br>- [Account name change notification](#f2b66020-6a81-4c5c-b6e3-47e103a21a90)<br> |
 | <a id="telephone1">Phone</a><br> | StringType<br>![Button](https://img.shields.io/badge/Audited-👁-red)<br> | Type the main phone number for this account.<br> |
 |  <span style="opacity: 0.4;"><a id="telephone1">Phone</a><br></span > |  <span style="opacity: 0.4;">StringType</span ><br>![Button](https://img.shields.io/badge/Audited-👁-red)<br> | Type the main phone number for this account.<br> |
 | <a id="fax">Fax</a><br> | StringType<br>![Button](https://img.shields.io/badge/Audited-👁-red)<br> | Type the fax number for the account.<br> |
@@ -59,5 +59,11 @@ Updated default Account form.
 | <a id="section">Documents Section</a><br> | Section |  |
 | <a id="AssetsAndLocationsTab">Assets and Locations</a><br> | Tab |  |
 | <a id="section">Assets and Locations</a><br> | Section |  |
-| <a id="name">Account Name</a><br> | StringType<br>![Button](https://img.shields.io/badge/Audited-👁-red)<br> | Type the company or business name.<br> |
+| <a id="name">Account Name</a><br> | StringType<br>![Button](https://img.shields.io/badge/Audited-👁-red)<br> | Type the company or business name.<br>**Modern Flows:**<br>- [Account name change notification](#f2b66020-6a81-4c5c-b6e3-47e103a21a90)<br> |
+
+# Workflows
+| Name | Type | Description |
+| --- | --- | --- |
+| <a id="f2b66020-6a81-4c5c-b6e3-47e103a21a90">[Account name change notification](https://make.powerautomate.com/flows/f2b66020-6a81-4c5c-b6e3-47e103a21a90/details) </a> | Modern Flows<br>![Button](https://img.shields.io/badge/Scope-Organization-brightgreen)<br>![Button](https://img.shields.io/badge/Calling%20User-red)<br>![Button](https://img.shields.io/badge/Message-UPDATE-yellow)<br>Trigger:<br>- When a row is added, modified or deleted<br> | **Triggers**:<br>- [name](#name)<br>**Trigger Conditions**:<br>- [statecode eq 0](#statecode eq 0)<br> |
+
 
