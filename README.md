@@ -6,7 +6,7 @@ The primary purpose of this repository is to showcase the output of the CLI. Her
 
 
 ## Install
-
+[XrmDocumentationGeneratorCoreCLI  Nuget URL](https://www.nuget.org/packages/XrmDocumentationGeneratorCoreCLI/)
 ```sh
 dotnet tool install --g XrmDocumentationGeneratorCoreCLI
 ```
