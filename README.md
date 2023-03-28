@@ -6,7 +6,7 @@ The primary purpose of this repository is to showcase the output of the CLI. Her
 
 
 ## Install
-[XrmDocumentationGeneratorCoreCLI  Nuget URL](https://www.nuget.org/packages/XrmDocumentationGeneratorCoreCLI/)
+[Reference: XrmDocumentationGeneratorCoreCLI  Nuget URL](https://www.nuget.org/packages/XrmDocumentationGeneratorCoreCLI/)
 ```sh
 dotnet tool install --g XrmDocumentationGeneratorCoreCLI
 ```
@@ -15,19 +15,16 @@ dotnet tool install --g XrmDocumentationGeneratorCoreCLI
 ```sh
 XrmDocumentationGeneratorCoreCLI generate -connection $connectionString -solution $solutionName -out $outputPath -documentType $documentType
 ```
-## Tested connection string
-[Microsoft Documentation #(ClientId or Client Secret based authentication)](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/xrm-tooling/use-connection-strings-xrm-tooling-connect#clientid-or-client-secret-based-authentication)
+## Supported connection string
+[Reference: Microsoft Documentation #(ClientId or Client Secret based authentication)](https://learn.microsoft.com/en-us/power-apps/developer/data-platform/xrm-tooling/use-connection-strings-xrm-tooling-connect#clientid-or-client-secret-based-authentication)
 ```sh
-<add name="MyCDSServer" 
-  connectionString="
   AuthType=ClientSecret;
   url=https://contosotest.crm.dynamics.com;
   ClientId={AppId};
-  ClientSecret={ClientSecret}"
-  />
+  ClientSecret={ClientSecret}
 ```
 ## Azure DevOps Extension Marketplace
-[Xrm PowerApps Toolset Extension](https://marketplace.visualstudio.com/items?itemName=xrm-world.xrm-powerapps-tools)
+[Reference: Xrm PowerApps Toolset Extension](https://marketplace.visualstudio.com/items?itemName=xrm-world.xrm-powerapps-tools)
 ```sh
 - task: XrmDocumentationGenerator@1
   displayName: 'Generate XRM Documentation'
