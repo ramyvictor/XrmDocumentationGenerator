@@ -1,6 +1,9 @@
 # XrmSimplSyntaxGeneratorCLI
-This repository only contains an example of the output of the CLI.
-Documents are generated from a solution the contains Account and Case tables.
+Welcome to the XrmSimplSyntaxGeneratorCLI repository!
+
+The primary purpose of this repository is to showcase the output of the CLI. Here, you can find an example of documents that have been generated from a solution containing Account and Case tables.
+
+XrmDocumentationGeneratorCLI is a dotnet tool that generates PowerApps documentation for your Microsoft Dataverse solutions. It simplifies the documentation process and helps you keep track of your solution's components.
 
 ## Install
 
